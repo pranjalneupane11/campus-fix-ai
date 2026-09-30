@@ -1,0 +1,16 @@
+# Backend
+campus-fix-api/target/
+campus-fix-api/.env
+*.class
+
+# Frontend
+campus-fix-web/node_modules/
+campus-fix-web/dist/
+campus-fix-web/.env
+
+# General
+.DS_Store
+*.log
+.idea/
+*.iml
+.vscode/

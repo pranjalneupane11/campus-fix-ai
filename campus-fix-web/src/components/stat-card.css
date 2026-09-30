@@ -1,0 +1,25 @@
+.stat-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 18px 20px;
+  box-shadow: var(--shadow-card);
+  border-left: 3px solid var(--color-brand);
+}
+
+.stat-card.accent-amber { border-left-color: var(--color-amber); }
+.stat-card.accent-green { border-left-color: var(--color-green); }
+.stat-card.accent-red { border-left-color: var(--color-red); }
+
+.stat-card-value {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.stat-card-label {
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: var(--color-slate-light);
+}
