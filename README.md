@@ -144,13 +144,6 @@ VITE_API_BASE_URL=http://localhost:8080/api
 
 The OpenAI API key is only ever read on the backend (`OpenAIConfig` / `AIAnalysisService`) and is never sent to or exposed in the React app. Both `.env` files are git-ignored.
 
-## Screenshots
-
-> _Add screenshots here after running the app locally:_
-> - Dashboard with stats and ticket table
-> - Report an issue form
-> - Ticket detail view with AI analysis
-> - Equipment tracking page
 
 ## Future improvements
 
