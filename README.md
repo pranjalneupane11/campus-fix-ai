@@ -115,35 +115,6 @@ mvn spring-boot:run
 ```
 Backend runs on `http://localhost:8080`.
 
-### 3. Frontend
-```bash
-cd campus-fix-web
-cp .env.example .env
-npm install
-npm run dev
-```
-Frontend runs on `http://localhost:5173`.
-
-## Environment variables
-
-**Backend** (`campus-fix-api/.env.example`)
-```
-DB_URL=jdbc:postgresql://localhost:5432/campus_fix_ai
-DB_USERNAME=postgres
-DB_PASSWORD=postgres
-OPENAI_API_KEY=sk-your-key-here
-OPENAI_MODEL=gpt-4o-mini
-CORS_ALLOWED_ORIGINS=http://localhost:5173
-SERVER_PORT=8080
-```
-
-**Frontend** (`campus-fix-web/.env.example`)
-```
-VITE_API_BASE_URL=http://localhost:8080/api
-```
-
-The OpenAI API key is only ever read on the backend (`OpenAIConfig` / `AIAnalysisService`) and is never sent to or exposed in the React app. Both `.env` files are git-ignored.
-
 
 ## Future improvements
 
